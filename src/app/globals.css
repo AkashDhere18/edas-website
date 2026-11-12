@@ -1,0 +1,33 @@
+@import "tailwindcss";
+@source "../";
+
+/* Brand colours sampled from the EDAS logo */
+@theme {
+  --color-brand-navy: #354872;   /* "EDAS" wordmark */
+  --color-brand-plum: #40235D;   /* swirl + "Real Estate Advisory Services" */
+  --color-brand-orange: #DC7F44; /* "Innovate | Build | Inspire" */
+  --color-brand-mist: #F4F6FB;
+
+  --font-sans: "Inter Variable", system-ui, sans-serif;
+  --font-display: "Montserrat Variable", system-ui, sans-serif;
+
+  --animate-fadeUp: fadeUp .8s ease both;
+  @keyframes fadeUp {
+    0% { opacity: 0; transform: translateY(24px); }
+    100% { opacity: 1; transform: none; }
+  }
+}
+
+html { scroll-behavior: smooth; }
+body { @apply bg-white text-slate-700 antialiased; }
+h1, h2, h3, h4 { @apply font-display text-brand-navy; }
+
+@layer components {
+  .container-x { @apply mx-auto w-full max-w-7xl px-5 sm:px-8; }
+  .section { @apply py-16 md:py-24; }
+  .eyebrow { @apply mb-3 inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-[.22em] text-brand-orange; }
+  .eyebrow::before { content: ""; @apply h-px w-8 bg-brand-orange; }
+  .btn { @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 text-sm font-semibold transition; }
+  .btn-primary { @apply bg-brand-orange text-white hover:bg-brand-navy; }
+  .btn-outline { @apply border border-brand-navy text-brand-navy hover:bg-brand-navy hover:text-white; }
+}
