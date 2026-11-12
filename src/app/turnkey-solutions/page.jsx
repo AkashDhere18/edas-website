@@ -7,7 +7,7 @@ import PageHero from "@/components/PageHero";
 import ServiceCards from "@/components/ServiceCards";
 import ClientsMarquee from "@/components/ClientsMarquee";
 import ContactSection from "@/components/ContactSection";
-import NewsletterBand from "@/components/NewsletterBand";
+// import NewsletterBand from "@/components/NewsletterBand";
 import { turnkeyHero, turnkeyServices, turnkeySectors, clients, turnkeyContacts } from "@/data/turnkey";
 
 export const metadata = {

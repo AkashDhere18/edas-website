@@ -7,7 +7,7 @@ import PageHero from "@/components/PageHero";
 import ServiceCards from "@/components/ServiceCards";
 import ClientsMarquee from "@/components/ClientsMarquee";
 import ContactSection from "@/components/ContactSection";
-import NewsletterBand from "@/components/NewsletterBand";
+// import NewsletterBand from "@/components/NewsletterBand";
 import { advisoryHero, capitalProviderServices, developerServices, clients, advisoryContacts } from "@/data/advisory";
 
 export const metadata = {

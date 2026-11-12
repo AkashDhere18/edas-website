@@ -114,7 +114,7 @@ import Reveal from "@/components/Reveal";
 import TestimonialCarousel from "@/components/TestimonialCarousel";
 import CultureVideo from "@/components/CultureVideo";
 import ContactSection from "@/components/ContactSection";
-import NewsletterBand from "@/components/NewsletterBand";
+// import NewsletterBand from "@/components/NewsletterBand";
 import { careersHero, whyJoin, culture, training, testimonials, careersContacts } from "@/data/careers";
 import { locations } from "@/data/contact";
 
@@ -201,7 +201,7 @@ export default function CareersPage() {
       <ContactSection contacts={careersContacts} locations={locations} />
 
       {/* 7. Newsletter */}
-      <NewsletterBand />
+      {/* <NewsletterBand /> */}
     </>
   );
 }

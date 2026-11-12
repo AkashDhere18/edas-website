@@ -8,11 +8,11 @@ import PageHero from "@/components/PageHero";
 import Reveal from "@/components/Reveal";
 import ContactForm from "@/components/ContactForm";
 import OfficeMap from "@/components/OfficeMap";
-import NewsletterBand from "@/components/NewsletterBand";
+// import NewsletterBand from "@/components/NewsletterBand";
 import { Facebook, Instagram, Linkedin, Youtube } from "@/components/SocialIcons";
 import { site } from "@/data/site";
 import { contactHero, connectCards, presenceLine, locations, maps, socials, contactContacts } from "@/data/contact";
-import ContactSection from "@/components/ContactSection";
+// import ContactSection from "@/components/ContactSection";
 
 export const metadata = {
   title: "Contact Us",
