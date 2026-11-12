@@ -122,9 +122,9 @@ export default function Home() {
               <span className="eyebrow">Portfolio</span>
               <h2 className="font-display text-3xl font-bold md:text-4xl">Featured projects</h2>
             </div>
-            <Link href="/services/turnkey-solutions" className="btn btn-outline">
+            {/* <Link href="/services/turnkey-solutions" className="btn btn-outline">
               View all projects
-            </Link>
+            </Link> */}
           </div>
           <div className="flex snap-x gap-6 overflow-x-auto pb-4 [scrollbar-width:thin]">
             {projects.map((p) => (

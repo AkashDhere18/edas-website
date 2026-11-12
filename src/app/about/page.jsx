@@ -39,11 +39,11 @@ export default function AboutPage() {
         <div className="relative flex h-72 items-center justify-center overflow-hidden bg-brand-navy md:h-96">
           <Image src={aboutIntro.image} alt="" fill priority sizes="100vw" className="object-cover object-[center_35%]" />
           <div className="absolute inset-0 bg-black/55" />
-          <h1  className="font-display relative animate-fadeUp text-4xl font-normal tracking-tight text-white! md:text-5xl">About Us</h1>
+          <h1  className="font-display relative animate-fadeUp text-4xl font-bold tracking-tight text-white! md:text-5xl">About Us</h1>
         </div>
         <div className="border-b border-slate-100 bg-white">
           <Reveal className="mx-auto max-w-5xl px-5 py-14 text-center md:py-16">
-            <p className="font-display text-base leading-[1.85] text-slate-800 md:text-xl md:leading-[1.8]">
+            <p className="text-slate-800  font-display text-base leading-[1.9] md:text-lg">
               EDAS is a <strong className="font-bold">real estate advisory and turnkey solutions</strong> company — unifying strategic insight and end-to-end delivery under one accountable team. We are driven by a commitment to excellence in every project. Our mission is to deliver exceptional client value through strategic insight, operational precision and continuous innovation. EDAS is more than a service provider — we are a trusted partner, setting new benchmarks with reliable, impactful and cost-effective solutions tailored to the evolving needs of our clients.
             </p>
           </Reveal>
