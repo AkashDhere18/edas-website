@@ -28,7 +28,7 @@ export default function Navbar() {
       <div className="container-x flex h-20 items-center justify-between">
         <Link href="/" aria-label="EDAS home" className="shrink-0">
           <Image
-            src="/images/logo.png"
+            src="/images/EDAS_logo_vector.png"
             alt="EDAS – Real Estate Advisory Services"
             width={461}
             height={164}

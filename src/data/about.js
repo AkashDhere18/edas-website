@@ -10,8 +10,8 @@ export const aboutIntro = {
 };
 
 export const aboutServices = [
-  { title: "Real Estate Advisory", note: "Strategic insight for every stage of a project", href: "/services/real-estate-advisory", image: "/images/advisory.jpg" },
-  { title: "Turnkey Solutions", note: "Design to handover under one accountable team", href: "/services/turnkey-solutions", image: "/images/turnkey.jpg" },
+  { title: "Real Estate Advisory", note: "Strategic insight for every stage of a project", href: "/real-estate-advisory", image: "/images/advisory.jpg" },
+  { title: "Turnkey Solutions", note: "Design to handover under one accountable team", href: "/turnkey-solutions", image: "/images/turnkey.jpg" },
 ];
 
 // PLACEHOLDER numbers – confirm with client

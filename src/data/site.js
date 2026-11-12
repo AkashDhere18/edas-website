@@ -51,7 +51,7 @@ export const slides = [
     kicker: "Turnkey Solutions",
     title: "One partner. Every step.",
     text: "Design, approvals, engineering, procurement and construction under a single accountable team.",
-    href: "/services/turnkey-solutions",
+    href: "/turnkey-solutions",
     cta: "Explore Turnkey Solutions",
   },
   {
@@ -59,7 +59,7 @@ export const slides = [
     kicker: "Real Estate Advisory",
     title: "Strategic insight. Operational precision.",
     text: "Advisory that maximises project value and removes risk from real estate decisions.",
-    href: "/services/real-estate-advisory",
+    href: "/real-estate-advisory",
     cta: "Explore Advisory",
   },
   {
@@ -83,13 +83,13 @@ export const stats = [
 export const businesses = [
   {
     title: "Real Estate Advisory",
-    href: "/services/real-estate-advisory",
+    href: "/real-estate-advisory",
     image: "/images/advisory.jpg",
     text: "Feasibility reviews, project strategy and delivery advisory that protect returns and de-risk decisions for developers and landowners.",
   },
   {
     title: "Turnkey Solutions",
-    href: "/services/turnkey-solutions",
+    href: "/turnkey-solutions",
     image: "/images/turnkey.jpg",
     text: "End-to-end contracting for residential, commercial and industrial projects — efficient, cost-effective and delivered on time.",
   },
