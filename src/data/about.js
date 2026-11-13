@@ -47,13 +47,21 @@ export const team = [
     name: "Radhika Suryawanshi",
     role: "Architect",
     photo: "/images/radhika-suryawanshi.png",
-    bio: "Radhika leads design development at EDAS, turning client briefs into practical, good-looking spaces. Her work covers space planning, concept design, working drawings and material selection for residential and commercial projects. She works closely with the projects team so every design can actually be built, and is delivered as intended.",
+    bio: "updating soon",
+    // bio: "Radhika leads design development at EDAS, turning client briefs into practical, good-looking spaces. Her work covers space planning, concept design, working drawings and material selection for residential and commercial projects. She works closely with the projects team so every design can actually be built, and is delivered as intended.",
   },
   {
     name: "Rohan Gurav",
     role: "Architect",
     photo: "/images/rohan-gurav.png",
-    bio: "Rohan handles architectural planning and design coordination across EDAS’s turnkey projects. He prepares detailed drawings and layouts that follow local building rules. He also makes sure civil, MEP and interior teams work from the same plan. His focus is on designs that make good use of space and stay within budget.",
+    bio: "updating soon",
+    // bio: "Rohan handles architectural planning and design coordination across EDAS’s turnkey projects. He prepares detailed drawings and layouts that follow local building rules. He also makes sure civil, MEP and interior teams work from the same plan. His focus is on designs that make good use of space and stay within budget.",
+  },
+  {
+    name: "Sapana Dhere",
+    role: "Designation",
+    photo: "/images/sapana-dhere.png",
+    bio: "updating soon",
   },
   {
     name: "Pralhad Kharat",
@@ -83,7 +91,7 @@ export const team = [
     name: "Aushitosh Hiremath",
     role: "Real Estate Advisory",
     photo: "/images/aushitosh-hiremath.png",
-    bio: "Ashutosh guides clients through property decisions as part of EDAS’s Real Estate Advisory services. His work includes market research, property evaluation and due diligence, so clients invest with confidence. He helps buyers, investors and landowners understand their options and choose what fits their goals.",
+    bio: "updating soon",
   },
   {
     name: "Akash Yadav",
@@ -108,12 +116,6 @@ export const team = [
     role: "Admin",
     photo: "/images/vishal-wandare.png",
     bio: "Vishal manages EDAS’s administrative operations, including office coordination, documentation and internal processes. He supports the projects and advisory teams with scheduling, records and logistics so they can focus on delivery. His work keeps everyday operations at EDAS organised and running smoothly.",
-  },
-  {
-    name: "Sapana Dhere",
-    role: "Designation",
-    photo: "/images/sapana-dhere.png",
-    bio: "Add 3–4 lines about experience, expertise and role at EDAS.",
   },
   {
     name: "Suraj Ghodke",

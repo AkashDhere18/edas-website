@@ -44,42 +44,42 @@ export const testimonials = {
   title: "Employee Testimonials",
   subtitle: "Real stories from the people building EDAS.",
   items: [
-    {
+  {
     name: "Abid Ali",
-    role: "Designation",
+    role: "Projects",
     since: "20XX",
     photo: "/images/abid-ali.png",
-    quote: "Placeholder testimonial. Replace this with a short, genuine quote from an EDAS team member about their experience, learning and growth at the company.",
+    quote: "At EDAS, every site teaches me something new. I've learned how to manage teams, materials and timelines together, and the trust my seniors place in me has helped me grow with confidence.",
   },
   {
-    name: "Darshan Bhaubuje",
-    role: "Designation",
+    name: "Darshan Bhabuje",
+    role: "Projects",
     since: "20XX",
     photo: "/images/darshan-bhaubuje.png",
-    quote: "Placeholder testimonial. Replace this with a short, genuine quote from an EDAS team member about their experience, learning and growth at the company.",
+    quote: "What I value most at EDAS is the hands-on exposure. From reading drawings to solving problems on site, I get to be part of the full journey of a project, and seeing a finished handover makes it all worth it.",
   },
   {
     name: "Nilesh Kumbhar",
-    role: "Designation",
+    role: "Alibaug Projects",
     since: "20XX",
     photo: "/images/nilesh-kumbhar.png",
-    quote: "Placeholder testimonial. Replace this with a short, genuine quote from an EDAS team member about their experience, learning and growth at the company.",
+    quote: "Leading projects in Alibaug has given me real ownership. EDAS trusts its people to take responsibility, and that freedom, backed by strong support from the team, has helped me grow both professionally and personally.",
   },
   {
     name: "Vishal Wandare",
-    role: "Designation",
+    role: "Admin",
     since: "20XX",
     photo: "/images/vishal-wandare.png",
-    quote: "Placeholder testimonial. Replace this with a short, genuine quote from an EDAS team member about their experience, learning and growth at the company.",
+    quote: "Working behind the scenes at EDAS, I've seen how good coordination keeps every team moving. The work culture is supportive and organised, and I'm proud to play a part in keeping things running smoothly every day.",
   },
   {
     name: "Pralhad Kharat",
-    role: "Designation",
+    role: "CPB Projects",
     since: "20XX",
     photo: "/images/pralhad-kharat.png",
-    quote: "Placeholder testimonial. Replace this with a short, genuine quote from an EDAS team member about their experience, learning and growth at the company.",
+    quote: "EDAS gave me the chance to handle projects with real responsibility from day one. Working alongside experienced people, I've learned to focus on quality, discipline on site, and delivering what we promise to our clients.",
   },
-  ]
+]
   // Array.from({ length: 6 }, (_, i) => ({
   //   name: "Employee Name",
   //   role: "Designation",

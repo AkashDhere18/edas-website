@@ -16,7 +16,7 @@ export default function ClientsMarquee({ clients, title = "Our Clients" }) {
       <div className="edas-marquee-wrap mt-10">
         <div className="edas-marquee flex w-max gap-5 px-3">
           {row.map((c, i) => (
-            <div key={i} className="grid h-24 w-56 shrink-0 place-items-center rounded-2xl border border-slate-200 bg-white px-4 text-center shadow-sm">
+            <div key={i} className="grid h-24 w-56 shrink-0 place-items-center rounded-2xl border border-slate-200 bg-[#354872b9] px-4 text-center shadow-sm">
               {c.logo ? <Image src={c.logo} alt={c.name} width={160} height={64} className="max-h-14 w-auto object-contain" /> : <span className="font-display text-sm font-semibold text-brand-navy/70">{c.name}</span>}
             </div>
           ))}

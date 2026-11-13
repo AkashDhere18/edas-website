@@ -27,14 +27,18 @@ export const developerServices = [
 // Client names from the EDAS company profile. PLACEHOLDER tiles fill the row until real logos are provided
 // (add logo files to /public/images/clients/ and set `logo: "/images/clients/name.png"`).
 export const clients = [
-  { name: "Oberoi Realty" },
-  { name: "HOABL" },
-  { name: "Accor — Mercure Hotels" },
-  { name: "Simone Dubash" },
-  { name: "Nozer Wadia" },
-  { name: "Client Name" },
-  { name: "Client Name" },
-  { name: "Client Name" },
+  { name: "Oberoi Realty",logo:"/images/OBEROIRLTY.png" },
+  { name: "HOABL", logo:"/images/hoal.avif" },
+  { name: "Veda life space", logo:"/images/veda-white.webp" },
+  { name: "Sunteck", logo:"/images/SUNTECK.png" },
+  { name: "Oberoi Realty",logo:"/images/OBEROIRLTY.png" },
+  { name: "HOABL", logo:"/images/hoal.avif" },
+  { name: "Veda life space", logo:"/images/veda-white.webp" },
+  { name: "Sunteck", logo:"/images/SUNTECK.png" },
+  // { name: "Client Name" },
+  // { name: "Client Name" },
+  // { name: "Client Name" },
+  // { name: "Accor — Mercure Hotels", logo:"/images/MercureHotels_logo.png" },
 ];
 
 export const advisoryContacts = [

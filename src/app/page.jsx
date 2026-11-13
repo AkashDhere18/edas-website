@@ -4,7 +4,10 @@ import { ArrowRight, Mail, Phone, ShieldCheck, Clock, Lightbulb } from "lucide-r
 import HeroSlider from "@/components/HeroSlider";
 import Counter from "@/components/Counter";
 import ContactForm from "@/components/ContactForm";
+import ClientsMarquee from "@/components/ClientsMarquee";
 import { businesses, capabilities, insights, projects, site, stats, why } from "@/data/site";
+import { clients, } from "@/data/advisory";
+
 const whyIcons = [ShieldCheck, Clock, Lightbulb];
 export default function Home() {
   return (
@@ -51,13 +54,13 @@ export default function Home() {
       </section>
 
       {/* Clients wall (PLACEHOLDER logos) */}
-      <section className="section bg-brand-mist py-14!">
+      {/* <section className="section bg-brand-mist py-14!">
         <div className="container-x">
           <p className="mb-8 text-center text-sm font-semibold uppercase tracking-[.22em] text-brand-navy">
             Trusted by developers &amp; corporates
           </p>
           <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-6">
-            {["Oberoi Realty", "HOABL", "Accor", "Simone Dubash", "Nozer Wadia", "Client Logo"].map((n) => (
+            {["/images/OBEROIRLTY.png", "/images/hoal.avif", "/images/veda-white.webp", "/images/SUNTECK.png", ].map((n,i) => (
               <div
                 key={n}
                 className="grid h-20 place-items-center rounded-xl border border-dashed border-slate-300 bg-white text-xs font-medium text-slate-400"
@@ -67,7 +70,34 @@ export default function Home() {
             ))}
           </div>
         </div>
+      </section> */}
+
+      <section className="section bg-brand-mist py-14!">
+        <div className="container-x">
+          <p className="mb-8 text-center text-sm font-semibold uppercase tracking-[.22em] text-brand-navy">
+            Trusted by developers &amp; corporates
+          </p>
+          <div className="mx-auto grid max-w-4xl grid-cols-2 gap-4 lg:grid-cols-4">
+            {[
+              { name: "Oberoi Realty", logo: "/images/OBEROIRLTY.png" },
+              { name: "HOABL", logo: "/images/hoal.avif" },
+              { name: "Veda", logo: "/images/veda-white.webp" },
+              { name: "Sunteck", logo: "/images/SUNTECK.png" },
+            ].map((c) => (
+              <div
+                key={c.name}
+                className="grid h-24 place-items-center rounded-xl border border-slate-200 bg-[#354872b9] px-5 shadow-sm"
+              >
+                <div className="relative h-14 w-full">
+                  <Image src={c.logo} alt={c.name} fill sizes="(min-width:1024px) 200px, 45vw" className="object-contain" />
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
       </section>
+
+      {/* <ClientsMarquee clients={clients} /> */}
 
       {/* Our Businesses */}
       <section className="section">
