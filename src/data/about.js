@@ -29,13 +29,13 @@ export const values = [
 // PLACEHOLDER founders – replace names, roles and messages.
 // To use a real photo: replace the file in /public/images/team/ with the SAME file name (portrait, ~800x1000 JPG).
 export const founders = [
-  {  name: "Sailesh Dhere", role: "Founder", photo: "/images/founder.jpg", text: "Placeholder message. Replace this with a short message from the founder about EDAS's vision, values and commitment to clients. Two or three short paragraphs work best." },
-  {  name: "Nilesh Dhere", role: "Co-Founder - EDAS-Projects", photo: "/images/NileshDhere.png", text: "Placeholder message. Replace this with a short message from the co-founder about how EDAS delivers value to its clients and partners." },
-  {  name: "Prayag Agarwal", role: "Co-Founder - EDAS-Asset Advisor's", photo: "/images/co-founder.jpg", text: "Placeholder message. Replace this with a short message from the co-founder about how EDAS delivers value to its clients and partners." },
+  {  name: "Sailesh Dhere", role: "Founder", photo: "/images/shailesh-dhere.png",tag: "Founder", text: "20+ years in real estate strategy and construction management. Formerly with Edelweiss, Oberoi Realty, SILA, and Capacite, delivering residential, commercial, and mixed-use projects." },
+  {  name: "Nilesh Dhere", role: "Co-Founder - EDAS-Projects", photo: "/images/NileshDhere.png",tag: "Co-Founder", text: "Placeholder message. Replace this with a short message from the co-founder about how EDAS delivers value to its clients and partners." },
+  {  name: "Prayag Agarwal", role: "Co-Founder - EDAS-Asset Advisor's", photo: "/images/prayag-agarwal.png",tag: "Co-Founder", text: "20+ years in banking and structured credit. Formerly with IndusInd Bank, YES Bank, Edelweiss, CRISIL, and L&T Finance, focused on real estate lending and credit underwriting." },
 ];
 
 // PLACEHOLDER team – replace names, roles and bios. Photos: /public/images/team/member-01.jpg ... member-12.jpg (same file names)
-const names = ["Abid Ali","Akash Yadav", "Aushitosh Hiremath"];
+// const names = ["Abid Ali","Akash Yadav", "Aushitosh Hiremath"];
 // export const team = Array.from({ length: 12 }, (_, i) => ({
 //   name: `${names[0]} ${i + 1}`,
 //   role: "Designation",
@@ -44,28 +44,70 @@ const names = ["Abid Ali","Akash Yadav", "Aushitosh Hiremath"];
 // }));
 export const team = [
   {
-    name: "Abid Ali",
-    role: "Designation",
-    photo: "/images/abid-ali.png",
-    bio: "Add 3–4 lines about experience, expertise and role at EDAS.",
+    name: "Radhika Suryawanshi",
+    role: "Architect",
+    photo: "/images/radhika-suryawanshi.png",
+    bio: "Radhika leads design development at EDAS, turning client briefs into practical, good-looking spaces. Her work covers space planning, concept design, working drawings and material selection for residential and commercial projects. She works closely with the projects team so every design can actually be built, and is delivered as intended.",
   },
   {
-    name: "Akash Yadav",
-    role: "Designation",
-    photo: "/images/akash-yadav.png",
-    bio: "Add 3–4 lines about experience, expertise and role at EDAS.",
+    name: "Rohan Gurav",
+    role: "Architect",
+    photo: "/images/rohan-gurav.png",
+    bio: "Rohan handles architectural planning and design coordination across EDAS’s turnkey projects. He prepares detailed drawings and layouts that follow local building rules. He also makes sure civil, MEP and interior teams work from the same plan. His focus is on designs that make good use of space and stay within budget.",
+  },
+  {
+    name: "Pralhad Kharat",
+    role: "CPB Projects",
+    photo: "/images/pralhad-kharat.png",
+    bio: "Pralhad manages execution of EDAS’s CPB projects, from site handover to final completion. He coordinates contractors, vendors and site supervisors so work stays on schedule and meets EDAS’s quality standards. His hands-on site experience helps him solve problems quickly and keep clients updated at every stage.",
+  },
+  {
+    name: "Sachin Hingmire",
+    role: "Projects",
+    photo: "/images/sachin-hingmire.png",
+    bio: "Sachin oversees site execution on EDAS projects. His work covers planning work schedules, monitoring daily progress, and checking quality against approved drawings and BOQs. He coordinates civil, electrical and finishing work so it happens in the right order. He makes sure each project is handed over on time and within budget.",
+  },
+  {
+    name: "Abid Ali",
+    role: "Projects",
+    photo: "/images/abid-ali.png",
+    bio: "Abid supports execution of turnkey projects, managing on-site teams and keeping work moving according to plan. He tracks materials, labour and progress so the site runs without delays or wastage. He also communicates regularly between the site and the management team.",
+  },
+  {
+    name: "Nilesh Kumbhar",
+    role: "Alibaug Projects",
+    photo: "/images/nilesh-kumbhar.png",
+    bio: "Nilesh leads EDAS’s projects in the Alibaug region, handling execution from planning through final handover. He knows the local area, its vendors and its site conditions, which helps keep work on schedule. He is the main point of contact for clients and teams on Alibaug sites.",
   },
   {
     name: "Aushitosh Hiremath",
-    role: "Designation",
+    role: "Real Estate Advisory",
     photo: "/images/aushitosh-hiremath.png",
-    bio: "Add 3–4 lines about experience, expertise and role at EDAS.",
+    bio: "Ashutosh guides clients through property decisions as part of EDAS’s Real Estate Advisory services. His work includes market research, property evaluation and due diligence, so clients invest with confidence. He helps buyers, investors and landowners understand their options and choose what fits their goals.",
+  },
+  {
+    name: "Akash Yadav",
+    role: "Steel Projects",
+    photo: "/images/akash-yadav.png",
+    bio: "Akash manages EDAS’s steel and structural projects, including fabrication, erection and site coordination. He makes sure steel work follows approved designs and safety standards and is finished on schedule. He works with fabricators and site teams to deliver strong, durable structures.",
   },
   {
     name: "Darshan Bhaubuje",
-    role: "Designation",
+    role: "Projects",
     photo: "/images/darshan-bhaubuje.png",
-    bio: "Add 3–4 lines about experience, expertise and role at EDAS.",
+    bio: "Darshan handles site coordination and execution on EDAS projects, supervising daily work and checking that it matches design and quality requirements. He works closely with contractors and suppliers to resolve on-site issues quickly. He keeps every stage of the project moving towards a smooth handover.",
+  },
+  {
+    name: "Saurabh Kamble",
+    role: "Projects",
+    photo: "/images/saurabh-kamble.png",
+    bio: "Saurabh supports EDAS’s project execution team with site supervision, progress tracking and quality checks. He makes sure materials and work at each site follow the approved specifications. His attention to detail on site helps EDAS deliver finished projects that clients can trust.",
+  },
+  {
+    name: "Vishal Wandare",
+    role: "Admin",
+    photo: "/images/vishal-wandare.png",
+    bio: "Vishal manages EDAS’s administrative operations, including office coordination, documentation and internal processes. He supports the projects and advisory teams with scheduling, records and logistics so they can focus on delivery. His work keeps everyday operations at EDAS organised and running smoothly.",
   },
   {
     name: "Sapana Dhere",
@@ -74,52 +116,10 @@ export const team = [
     bio: "Add 3–4 lines about experience, expertise and role at EDAS.",
   },
   {
-    name: "Radhika Suryawanshi",
-    role: "Designation",
-    photo: "/images/radhika-suryawanshi.png",
-    bio: "Add 3–4 lines about experience, expertise and role at EDAS.",
-  },
-  {
-    name: "Nilesh Kumbhar",
-    role: "Designation",
-    photo: "/images/nilesh-kumbhar.png",
-    bio: "Add 3–4 lines about experience, expertise and role at EDAS.",
-  },
-  {
-    name: "Vishal Wandare",
-    role: "Designation",
-    photo: "/images/vishal-wandare.png",
-    bio: "Add 3–4 lines about experience, expertise and role at EDAS.",
-  },
-  {
-    name: "Pralhad Kharat",
-    role: "Designation",
-    photo: "/images/pralhad-kharat.png",
-    bio: "Add 3–4 lines about experience, expertise and role at EDAS.",
-  },
-  {
-    name: "Rohan Gurav",
-    role: "Designation",
-    photo: "/images/rohan-gurav.png",
-    bio: "Add 3–4 lines about experience, expertise and role at EDAS.",
-  },
-  {
-    name: "Sachin Hingmire",
-    role: "Designation",
-    photo: "/images/sachin-hingmire.png",
-    bio: "Add 3–4 lines about experience, expertise and role at EDAS.",
-  },
-  {
-    name: "Saurabh Kamble",
-    role: "Designation",
-    photo: "/images/saurabh-kamble.png",
-    bio: "Add 3–4 lines about experience, expertise and role at EDAS.",
-  },
-  {
     name: "Suraj Ghodke",
-    role: "Designation",
+    role: "Accounts",
     photo: "/images/suraj-ghodke.png",
-    bio: "Add 3–4 lines about experience, expertise and role at EDAS.",
+    bio: "Suraj manages accounts and financial records at EDAS, including billing, payments, vendor accounts and project cost tracking. He keeps records accurate and payments on time for every project. His work supports EDAS’s commitment to transparency with clients and partners.",
   }
   // Copy one block per person, then change name, role, photo and bio
 ];

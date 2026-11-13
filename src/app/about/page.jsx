@@ -125,7 +125,7 @@ export default function AboutPage() {
                   </div>
                 </Reveal>
                 <Reveal direction={flip ? "left" : "right"} delay={150} className={`md:col-span-7 ${flip ? "md:order-1" : ""}`}>
-                  <span className="eyebrow">{f.role}&apos;s Message</span>
+                  {/* <span className="eyebrow">{f.tag}&apos;s Message</span> */}
                   <span className="block font-display text-7xl font-extrabold leading-none text-brand-orange/30" aria-hidden>&ldquo;</span>
                   <p className="-mt-4 text-lg leading-relaxed">{f.text}</p>
                   <p className="mt-6 font-display text-xl font-bold text-brand-navy">{f.name}</p>
