@@ -29,18 +29,100 @@ export const values = [
 // PLACEHOLDER founders – replace names, roles and messages.
 // To use a real photo: replace the file in /public/images/team/ with the SAME file name (portrait, ~800x1000 JPG).
 export const founders = [
-  { name: "Founder Name", role: "Founder", photo: "/images/founder.jpg", text: "Placeholder message. Replace this with a short message from the founder about EDAS's vision, values and commitment to clients. Two or three short paragraphs work best." },
-  { name: "Co-Founder Name", role: "Co-Founder", photo: "/images/co-founder.jpg", text: "Placeholder message. Replace this with a short message from the co-founder about how EDAS delivers value to its clients and partners." },
+  {  name: "Sailesh Dhere", role: "Founder", photo: "/images/founder.jpg", text: "Placeholder message. Replace this with a short message from the founder about EDAS's vision, values and commitment to clients. Two or three short paragraphs work best." },
+  {  name: "Nilesh Dhere", role: "Co-Founder - EDAS-Projects", photo: "/images/NileshDhere.png", text: "Placeholder message. Replace this with a short message from the co-founder about how EDAS delivers value to its clients and partners." },
+  {  name: "Prayag Agarwal", role: "Co-Founder - EDAS-Asset Advisor's", photo: "/images/co-founder.jpg", text: "Placeholder message. Replace this with a short message from the co-founder about how EDAS delivers value to its clients and partners." },
 ];
 
 // PLACEHOLDER team – replace names, roles and bios. Photos: /public/images/team/member-01.jpg ... member-12.jpg (same file names)
-const names = ["Team Member"];
-export const team = Array.from({ length: 12 }, (_, i) => ({
-  name: `${names[0]} ${i + 1}`,
-  role: "Designation",
-  photo: `/images/member-${String(i + 1).padStart(2, "0")}.jpg`,
-  bio: "Placeholder biography. Add 3–4 lines about experience, expertise and role at EDAS.",
-}));
+const names = ["Abid Ali","Akash Yadav", "Aushitosh Hiremath"];
+// export const team = Array.from({ length: 12 }, (_, i) => ({
+//   name: `${names[0]} ${i + 1}`,
+//   role: "Designation",
+//   photo: `/images/member-${String(i + 1).padStart(2, "0")}.png`,
+//   bio: "Placeholder biography. Add 3–4 lines about experience, expertise and role at EDAS.",
+// }));
+export const team = [
+  {
+    name: "Abid Ali",
+    role: "Designation",
+    photo: "/images/abid-ali.png",
+    bio: "Add 3–4 lines about experience, expertise and role at EDAS.",
+  },
+  {
+    name: "Akash Yadav",
+    role: "Designation",
+    photo: "/images/akash-yadav.png",
+    bio: "Add 3–4 lines about experience, expertise and role at EDAS.",
+  },
+  {
+    name: "Aushitosh Hiremath",
+    role: "Designation",
+    photo: "/images/aushitosh-hiremath.png",
+    bio: "Add 3–4 lines about experience, expertise and role at EDAS.",
+  },
+  {
+    name: "Darshan Bhaubuje",
+    role: "Designation",
+    photo: "/images/darshan-bhaubuje.png",
+    bio: "Add 3–4 lines about experience, expertise and role at EDAS.",
+  },
+  {
+    name: "Sapana Dhere",
+    role: "Designation",
+    photo: "/images/sapana-dhere.png",
+    bio: "Add 3–4 lines about experience, expertise and role at EDAS.",
+  },
+  {
+    name: "Radhika Suryawanshi",
+    role: "Designation",
+    photo: "/images/radhika-suryawanshi.png",
+    bio: "Add 3–4 lines about experience, expertise and role at EDAS.",
+  },
+  {
+    name: "Nilesh Kumbhar",
+    role: "Designation",
+    photo: "/images/nilesh-kumbhar.png",
+    bio: "Add 3–4 lines about experience, expertise and role at EDAS.",
+  },
+  {
+    name: "Vishal Wandare",
+    role: "Designation",
+    photo: "/images/vishal-wandare.png",
+    bio: "Add 3–4 lines about experience, expertise and role at EDAS.",
+  },
+  {
+    name: "Pralhad Kharat",
+    role: "Designation",
+    photo: "/images/pralhad-kharat.png",
+    bio: "Add 3–4 lines about experience, expertise and role at EDAS.",
+  },
+  {
+    name: "Rohan Gurav",
+    role: "Designation",
+    photo: "/images/rohan-gurav.png",
+    bio: "Add 3–4 lines about experience, expertise and role at EDAS.",
+  },
+  {
+    name: "Sachin Hingmire",
+    role: "Designation",
+    photo: "/images/sachin-hingmire.png",
+    bio: "Add 3–4 lines about experience, expertise and role at EDAS.",
+  },
+  {
+    name: "Saurabh Kamble",
+    role: "Designation",
+    photo: "/images/saurabh-kamble.png",
+    bio: "Add 3–4 lines about experience, expertise and role at EDAS.",
+  },
+  {
+    name: "Suraj Ghodke",
+    role: "Designation",
+    photo: "/images/suraj-ghodke.png",
+    bio: "Add 3–4 lines about experience, expertise and role at EDAS.",
+  }
+  // Copy one block per person, then change name, role, photo and bio
+];
 
 // PLACEHOLDER timeline – newest first. Replace the years and text with real milestones.
 export const journey = [

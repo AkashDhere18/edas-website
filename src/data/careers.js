@@ -43,11 +43,55 @@ export const training = {
 export const testimonials = {
   title: "Employee Testimonials",
   subtitle: "Real stories from the people building EDAS.",
-  items: Array.from({ length: 6 }, (_, i) => ({
-    name: "Employee Name",
+  items: [
+    {
+    name: "Abid Ali",
     role: "Designation",
     since: "20XX",
-    photo: `/images/team/member-${String(i + 1).padStart(2, "0")}.jpg`,
+    photo: "/images/abid-ali.png",
     quote: "Placeholder testimonial. Replace this with a short, genuine quote from an EDAS team member about their experience, learning and growth at the company.",
-  })),
+  },
+  {
+    name: "Darshan Bhaubuje",
+    role: "Designation",
+    since: "20XX",
+    photo: "/images/darshan-bhaubuje.png",
+    quote: "Placeholder testimonial. Replace this with a short, genuine quote from an EDAS team member about their experience, learning and growth at the company.",
+  },
+  {
+    name: "Nilesh Kumbhar",
+    role: "Designation",
+    since: "20XX",
+    photo: "/images/nilesh-kumbhar.png",
+    quote: "Placeholder testimonial. Replace this with a short, genuine quote from an EDAS team member about their experience, learning and growth at the company.",
+  },
+  {
+    name: "Vishal Wandare",
+    role: "Designation",
+    since: "20XX",
+    photo: "/images/vishal-wandare.png",
+    quote: "Placeholder testimonial. Replace this with a short, genuine quote from an EDAS team member about their experience, learning and growth at the company.",
+  },
+  {
+    name: "Pralhad Kharat",
+    role: "Designation",
+    since: "20XX",
+    photo: "/images/pralhad-kharat.png",
+    quote: "Placeholder testimonial. Replace this with a short, genuine quote from an EDAS team member about their experience, learning and growth at the company.",
+  },
+  ]
+  // Array.from({ length: 6 }, (_, i) => ({
+  //   name: "Employee Name",
+  //   role: "Designation",
+  //   since: "20XX",
+  //   photo: `/images/member-${String(i + 1).padStart(2, "0")}.jpg`,
+  //   quote: "Placeholder testimonial. Replace this with a short, genuine quote from an EDAS team member about their experience, learning and growth at the company.",
+  // })),
 };
+// {
+//     name: "Abid Ali",
+//     role: "Designation",
+//     since: "20XX"
+//     photo: "/images/abid-ali.png",
+//     quote: "Placeholder testimonial. Replace this with a short, genuine quote from an EDAS team member about their experience, learning and growth at the company.",
+//   },

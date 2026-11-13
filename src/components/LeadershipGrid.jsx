@@ -23,10 +23,10 @@ export default function LeadershipGrid({ people }) {
 
   return (
     <>
-      <div className="grid grid-cols-2 gap-x-5 gap-y-9 md:grid-cols-3 lg:grid-cols-4">
+      <div className="grid grid-cols-2 gap-x-4 gap-y-8 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5">
         {people.map((person, i) => (
-          <button key={i} onClick={() => open(i)} className="group text-left" aria-label={`View profile of ${person.name}`}>
-            <div className="relative aspect-[4/5] overflow-hidden rounded-2xl bg-brand-mist">
+          <button key={i} onClick={() => open(i)} className="group mx-auto w-full max-w-48 text-left" aria-label={`View profile of ${person.name}`}>
+            <div className="relative mx-auto aspect-square w-full max-w-48 overflow-hidden rounded-2xl bg-brand-mist ">
               <Image src={person.photo} alt={person.name} fill sizes="(min-width:1024px) 22vw, 45vw" className="object-cover transition duration-700 group-hover:scale-105" />
               <div className="absolute inset-0 bg-linear-to-t from-brand-navy/70 via-transparent to-transparent opacity-0 transition group-hover:opacity-100" />
               <span className="absolute bottom-3 left-3 translate-y-2 rounded-full bg-brand-orange px-3 py-1 text-xs font-semibold text-white opacity-0 transition group-hover:translate-y-0 group-hover:opacity-100">View profile</span>

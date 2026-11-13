@@ -143,9 +143,6 @@ export default function CareersPage() {
         </div>
       </section>
 
-      {/* 2b. Culture video (Sila shows a video under the Why Join text) */}
-      {/* <CultureVideo /> */}
-
       {/* 3. Our Culture: mosaic gallery (1 large + 4 small) */}
       <section className="section bg-brand-mist">
         <div className="container-x">

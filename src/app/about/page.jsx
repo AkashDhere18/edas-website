@@ -39,7 +39,7 @@ export default function AboutPage() {
         <div className="relative flex h-72 items-center justify-center overflow-hidden bg-brand-navy md:h-96">
           <Image src={aboutIntro.image} alt="" fill priority sizes="100vw" className="object-cover object-[center_35%]" />
           <div className="absolute inset-0 bg-black/55" />
-          <h1  className="font-display relative animate-fadeUp text-4xl font-bold tracking-tight text-white! md:text-5xl">About Us</h1>
+          <h1 className="font-display relative animate-fadeUp text-4xl font-bold tracking-tight text-white! md:text-5xl">About Us</h1>
         </div>
         <div className="border-b border-slate-100 bg-white">
           <Reveal className="mx-auto max-w-5xl px-5 py-14 text-center md:py-16">
@@ -118,10 +118,10 @@ export default function AboutPage() {
           {founders.map((f, i) => {
             const flip = i % 2 === 1;
             return (
-              <div key={f.role} className="grid items-center gap-8 md:grid-cols-12 md:gap-14">
-                <Reveal direction={flip ? "right" : "left"} className={`md:col-span-5 ${flip ? "md:order-2" : ""}`}>
-                  <div className="relative mx-auto aspect-[4/5] w-full max-w-md overflow-hidden rounded-3xl shadow-xl">
-                    <Image src={f.photo} alt={f.name} fill sizes="(min-width:768px) 40vw, 90vw" className="object-cover" />
+              <div key={f.name} className="grid items-center gap-8 md:grid-cols-12 md:gap-14">
+                <Reveal direction={flip ? "right" : "left"} className={`md:col-span-4 ${flip ? "md:order-2" : ""}`}>
+                  <div className="relative mx-auto aspect-square w-full max-w-65 overflow-hidden rounded-3xl shadow-xl">
+                    <Image src={f.photo} alt={f.name} fill sizes="260px" className="object-cover object-top" />
                   </div>
                 </Reveal>
                 <Reveal direction={flip ? "left" : "right"} delay={150} className={`md:col-span-7 ${flip ? "md:order-1" : ""}`}>
